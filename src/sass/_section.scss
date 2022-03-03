@@ -1,3 +1,153 @@
 .section{
-    height: 500px;
+    height: 1921px;
+    // height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    // width: 1440px;
+    padding-left: 335px;
+    padding-right: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+.section-one{
+    width: 850px;
+    height: 180px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+//    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+//    border-radius: 4px;
+}
+.section-one:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+}
+.new-sity{
+    weight: 500;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.16;
+    font-family: "Work Sans" , sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.new-sity :hover{
+    color: #EF454E;
+  
+}
+.new-one{
+    color: #000000;
+    font-size: 19px;
+    line-height: 1.16;
+    font-family: "Work Sans" , sans-serif;
+    font-weight: 500;
+    margin: 0;
+padding-bottom: 11px;
+}
+.new-two{
+    color: #000000;
+    font-size: 19px;
+    line-height: 1.16;
+    font-family: "Work Sans" , sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+.new-three{
+    margin: 0; 
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+.new-four{
+margin: 0;
+font-weight: 400;
+font-size: 16px;
+}
+
+.amout{
+    display: flex;
+}
+.amout-one{
+    padding-top: 40px;
+}
+.save{
+    width: 80px;
+    height: 40px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    margin-left: 92px;
+    margin-top: 70px;
+    border: none;
+}
+.results{
+    color: #000000;
+    font-size: 16px;
+    line-height: 2;
+    font-family: "Work Sans" , sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-left: 70px;
+}
+.amount{
+    color: #606060;
+    font-weight: 300;
+    font-family: "Work Sans" , sans-serif;
+    line-height: 19;
+    font-size: 16px;
+}
+.icon{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 85px;
+    height: 85px;
+    justify-content: center;
+    display: flex;
+    margin-top: 42px;
+    margin-left: 40px;
+}
+.icon-one{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 85px;
+    height: 85px;
+    justify-content: center;
+    display: flex;
+    margin-top: 42px;
+    margin-left: 40px;
+}
+.icon-one::after{
+    content: url('../images/icons.svg/money.svg');
+    margin-right: 35px;
+    margin-top: 21px;
+  }
+.details{
+    color: #EF454E;
+    font-size: 16px;
+    line-height: 2;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-left: 70px;
+    text-decoration: underline;
+}
+
+.details::after{
+  content: url('../images/icons.svg/strila.svg')
+}
+  .save::before{
+    content: url('../images/icons.svg/heart.svg');
+    padding-right: 8px;
+  }
+  .icon:before{
+    content: url('../images/icons.svg/amount.svg');
+    margin-left: 35px;
+    margin-top: 25px;
+  }

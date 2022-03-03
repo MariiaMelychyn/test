@@ -12,24 +12,26 @@
     align-items: center;
 }
 .Student{
+    padding-left: 15px;
     width: 195px;
     height: 70px;
     background: #FFFFFF;
     border-radius: 4px;
     margin-right: 10px;
     margin-top: 20px;
+    border: none;
 }
 .sity{
+    padding-left: 15px;
 width: 637px;
 height: 70px;
 background: #FFFFFF;
 border-radius: 4px;
 Top: 120px;
 Left: 340px;
-Radius: 4px;
-Blend: Pass through;
 margin-right: 10px;
 margin-top: 20px;
+border: none;
 }
 .btn{
     width: 150px;
@@ -37,12 +39,22 @@ margin-top: 20px;
     background-color: #EF454E;
     margin-right: 10px;
     margin-top: 20px;
+    color: white;
+    border: none;
 }
 .Filter{
+    padding-left: 10px;
     width: 150px;
     height: 70px;
     background: #FFFFFF;
     border-radius: 4px;
     margin-right: 10px;
     margin-top: 20px;
+    border: none;
+}
+.Filter::before{
+    content: url('../images/icons.svg/filter.svg')
+}
+.new-sity:hover{
+color: #EF454E;
 }
