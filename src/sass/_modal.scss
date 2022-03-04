@@ -1,0 +1,180 @@
+#modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    overflow-y: auto;
+}
+.container{
+    margin: 0vh 25vw;
+    width: 700px;
+    height: 1176px;
+    // overflow: scroll;
+    overflow: hidden;
+    // width: 50vh;
+    padding-left: 100px;
+    background: white;
+    box-sizing: border-box;
+    padding: 15px;
+    position: relative;
+    background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+}
+.container .closeModal{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.modalContent{
+    display: none;
+}
+.wrapper{
+    width: 600px;
+    margin: 100px auto;
+}
+.wrapper h2{
+    text-align: center;
+    color: white;
+    background: rga(0, 29, 38);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.innerModal{
+    width: 700px;
+    height: 1176px;
+}
+
+
+// модал
+.title{
+    margin: 0;
+    padding-left: 75px;
+    font-size: 22px;
+    line-height: 1.45;
+    text-align: center;
+    color: #000000;
+    display: block;
+    width: 500px;
+}
+.innerModal{
+    width: 700px;
+    height: 1176px;
+}
+.account{
+    margin-bottom: 25px;
+    display: flex;
+}
+.already{
+    margin: 0;
+    padding-left: 100px;
+    font-size: 20px;
+    line-height: 1.6;
+    // text-align: center;
+    color: #000000;
+    display: block;
+    // width: 300px;
+}
+.log{
+    padding-left: 8px;
+    margin: 0;
+
+    font-size: 20px;
+    line-height: 1.6;
+    // text-align: center;
+    color: #EF454E;
+    display: block;
+    width: 300px;
+}
+.am{
+    font-size: 16px;
+    line-height: 1.17;
+    color: #000000;
+    margin-top: 0;
+    width: 550px;
+    text-align: center;
+}
+.radio{
+    margin-left: 135px;
+    margin-bottom: 25px;
+}
+.para{
+padding-right: 10px;
+}
+.register-form{
+    margin-left: 120px;
+    display: table-caption;
+}
+.forma-modal{
+    background-color: #f6f7fb;
+    border: 0;
+    // border-radius: 30px;
+    height: 52px;
+    margin-top: 12px;
+    // padding-left: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    width: 360px;
+    border: none;
+}
+.sub{
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+padding-left: 120px;
+}
+.checkbox{
+    padding-left: 120px;
+}
+.weekly{
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 300;
+
+}
+.how{
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 120px;
+}
+.clicking{
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 120px;
+}
+.terms{
+    font-size: 14px;
+    line-height: 16px;
+    color: #EF454E;
+    font-weight: 400;
+    padding-left: 5px;
+}
+.mdn{
+    display: flex;
+}
+.button{
+    width: 360px;
+    height: 70px;
+    background: #EF454E;
+    border-radius: 4px;
+    border: none;
+    margin-left: 120px;
+    color: #FFFFFF;
+}
+.modal {
+    overflow-y: auto;
+  }
+  .modal-open {
+    overflow: auto;
+  }
