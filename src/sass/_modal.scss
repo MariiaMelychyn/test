@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
     // overflow: auto;
     background: rgba(0,0,0,0.5);
     display: none;
@@ -24,6 +25,7 @@
     background: #FFFFFF;
 box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 border-radius: 4px;
+// display: none;
 }
 .container .closeModal{
     position: absolute;
@@ -182,4 +184,9 @@ body.modal{
     transform: rotate(20deg);
     // transform: skewY(20deg);
  }
- 
+ .top{
+     z-index: 1;
+ }
+ body{
+    width: 100vw;
+ }

@@ -1,5 +1,5 @@
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <div class="modalContent" id="cont1">
     <h3 class="title">You must be a user to view this content...</h3>
     <div class="account">
@@ -8,21 +8,26 @@
     </div>
     <p class="am">I AM A:    </p>
     <div class="radio">
-        <input type="radio" id="contactChoice1"
-         name="contact" value="student">
-        <label class='para' for="contactChoice1">Student</label>
-    
-        <input type="radio" id="contactChoice2"
-         name="contact" value="parent">
-        <label class='para' for="contactChoice2">Parent</label>
-    
-        <input type="radio" id="contactChoice3"
-         name="contact" value="counselor">
-        <label class='para' for="contactChoice3">Counselor</label>
-
-        <input type="radio" id="contactChoice3"
-         name="contact" value="other">
-        <label class='para' for="contactChoice3">Other</label>
+        <label class="wrap-radio-btn" for="Student">
+            <input type="radio"  id="Student"  name='radio'>
+            <span class="icon-smile-sad"></span>
+            <span class='para'>Student</span>
+          </label>
+          <label class="wrap-radio-btn" for="Parent">
+            <input type="radio"  id="Parent" name='radio' >
+            <span class="icon-smile"></span>
+            <span class='para'>Parent</span>
+          </label>
+          <label class="wrap-radio-btn" for="Counselor">
+            <input type="radio"  id="Counselor"  name='radio'>
+            <span class="icon-smile-sad"></span>
+            <span class='para'>Counselor</span>
+          </label>
+          <label class="wrap-radio-btn" for="Other">
+            <input type="radio"  id="Other"  name='radio' >
+            <span class="icon-smile"></span>
+            <span class='para'>Other</span>
+          </label>
       </div>
       <div>
      <form class="register-form">
@@ -30,6 +35,8 @@
             <input
               type="text"
               name="name"
+              pattern="^[a-zA-Z]+$"
+              title="fill in this field correctly"
               placeholder="  First Name"
               class="forma-modal"
               required
@@ -39,6 +46,8 @@
           <input
           type="text"
           name="name"
+          pattern="^[a-zA-Z]+$"
+          title="fill in this field correctly"
           placeholder="  Last Name"
           class="forma-modal"
         
@@ -49,6 +58,8 @@
           <input
       type="text"
       name="name"
+      pattern="^[a-zA-Z0-9]\@+$"
+      title="fill in this field correctly"
       placeholder="  Email Address"
       class="forma-modal"
 
@@ -58,6 +69,8 @@
   <label class="forma-modal">
   <input
   type="number"
+  pattern="[0-9]{10}"
+  title="fill in this field correctly"
   name="name"
   placeholder="  Password"
   class="forma-modal"
@@ -68,6 +81,8 @@
 <label class="forma-modal">
 <input
 type="number"
+pattern="[0-9]{10}"
+title="fill in this field correctly"
 name="name"
 placeholder="  Confirm Password"
 class="forma-modal"
@@ -78,6 +93,8 @@ required
 <input
 type="text"
 name="name"
+pattern="^[a-zA-Z]+$"
+title="fill in this field correctly"
 placeholder="  School"
 class="forma-modal"
 required
@@ -87,6 +104,8 @@ required
 <input
 type="text"
 name="name"
+pattern="^[a-zA-Z]+$"
+title="fill in this field correctly"
 placeholder="  Current Grade/Year in School"
 class="forma-modal"
 
@@ -118,7 +137,9 @@ required
             <input
               type="text"
               name="name"
+              pattern="^[a-zA-Z]+$"
               placeholder="  Online search"
+              title="fill in this field correctly"
               aria-label="Input for your name"
               class="forma-modal"
               required
@@ -140,7 +161,14 @@ required
 
 
 
-
+<script>
+    function updateButtonState(){
+      var submitButton = document.querySelector('button[type="submit"]');
+      var selectedRadioButton = document.querySelector('input[name="radio-value"]:checked');
+      submitButton.disabled = selectedRadioButton.value != '5';
+    }
+    updateButtonState();
+  </script>
 
 
 <div id="modal">
