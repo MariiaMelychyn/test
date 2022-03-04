@@ -35,6 +35,10 @@ ul { list-style: none; }
     height: 70px;
     background: #FFFFFF;
     border-radius: 4px;
+    border: none;
+}
+.tabl{
+    border: none; 
 }
 p {
     text-align: justify;
@@ -54,7 +58,16 @@ background: #EF454E;
 border-radius: 4px;
 width: 600;
 color: #FFFFFF;
+border: none;
 }
+.subscribe:hover{
+    box-shadow: 3px -3px 0px #EF454E;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    color: #fff;
+ }
+ 
 .association{
     box-sizing: border-box;
 }
