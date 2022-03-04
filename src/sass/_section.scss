@@ -14,10 +14,10 @@
 .section-one{
     width: 850px;
     height: 180px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-//    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-//    border-radius: 4px;
+    // background: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #C4C4C4;
+
 }
 .section-one:hover{
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
