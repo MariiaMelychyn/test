@@ -1,5 +1,4 @@
 .form{
-    // width: 1440px;
     width: 100vw;
     height: 110px;
     background-color: #FFBF43;
@@ -57,4 +56,25 @@ border: none;
 }
 .new-sity:hover{
 color: #EF454E;
+}
+// .fa{
+//    visibility: hidden;
+// }
+.new-sity{
+    cursor: pointer;
+}
+.save{
+    cursor: pointer;
+}
+.subscribe{
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+}
+.Filter{
+    cursor: pointer;
+}
+.Student{
+    cursor: pointer;
 }
