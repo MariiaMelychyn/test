@@ -8,24 +8,20 @@
     <p class="am">I AM A:    </p>
     <div class="radio">
         <label class="wrap-radio-btn" for="Student">
-            <input type="radio"  id="Student"  name='radio'>
-            <span class="icon-smile-sad"></span>
-            <span class='para'>Student</span>
+            <input type="radio" class="radio-button" value="student" id="Student"  name="contact" checked>
+            <span class="para">Student</span>
           </label>
           <label class="wrap-radio-btn" for="Parent">
-            <input type="radio"  id="Parent" name='radio' >
-            <span class="icon-smile"></span>
-            <span class='para'>Parent</span>
+            <input type="radio"class="radio-button" value="parent" id="Parent" name="contact" >
+            <span class="para">Parent</span>
           </label>
           <label class="wrap-radio-btn" for="Counselor">
-            <input type="radio"  id="Counselor"  name='radio'>
-            <span class="icon-smile-sad"></span>
-            <span class='para'>Counselor</span>
+            <input type="radio" class="radio-button" value="counselor"  id="Counselor"  name="contact" >
+            <span class="para">Counselor</span>
           </label>
           <label class="wrap-radio-btn" for="Other">
-            <input type="radio"  id="Other"  name='radio' >
-            <span class="icon-smile"></span>
-            <span class='para'>Other</span>
+            <input type="radio" class="radio-button" value="other" id="Other"  name="contact" >
+            <span class="para">Other</span>
           </label>
       </div>
       <div>
@@ -56,7 +52,7 @@
       <labe class="forma-modal">
           <input
       type="text"
-      name="name"
+      name="Email"
       pattern="^[a-zA-Z0-9]\@+$"
       title="fill in this field correctly"
       placeholder="  Email Address"
@@ -70,7 +66,7 @@
   type="number"
   pattern="[0-9]{10}"
   title="fill in this field correctly"
-  name="name"
+  name="Password"
   placeholder="  Password"
   class="forma-modal"
  
@@ -82,7 +78,7 @@
 type="number"
 pattern="[0-9]{10}"
 title="fill in this field correctly"
-name="name"
+name="Password"
 placeholder="  Confirm Password"
 class="forma-modal"
 required
@@ -91,7 +87,7 @@ required
 <label class="forma-modal">
 <input
 type="text"
-name="name"
+name="School"
 pattern="^[a-zA-Z]+$"
 title="fill in this field correctly"
 placeholder="  School"
@@ -101,8 +97,8 @@ required
 </label>
 <label class="forma-modal">
 <input
-type="text"
-name="name"
+type="number"
+name="Year"
 pattern="^[a-zA-Z]+$"
 title="fill in this field correctly"
 placeholder="  Current Grade/Year in School"
@@ -150,7 +146,8 @@ required
          <p class="clicking">By clicking "Join," I agree to the</p>
          <p class="terms">Terms & Conditions</p>
      </div>
-     <button class="button" type="submit">Join</button>
+     <button class="button" type="submit">
+      <span className={s.btnText}> Join</span></button>
 </div>
 
 
