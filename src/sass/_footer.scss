@@ -1,15 +1,10 @@
 .footer{
     height: 300px;
     background-color: #2E2E38;
-    // width: 100vw;
     display: flex;
     margin: auto;
-    // position: fixed;
 }
-@media screen and (min-width: 786px){
-    .footer{width: 100vw;
-    }
-}
+
 .footer-flex{
     background-color:  white;
     width: 100vw;
@@ -24,13 +19,13 @@ ul { list-style: none; }
     padding-top: 124px;
 }
 @media screen and (min-width: 320px){
-    .college{
-        padding-left: 50px;
+.college{
+    padding-left: 50px;
     }
 }
 @media screen and (min-width: 1440px){
-    .college{
-        padding-left: 180px;
+.college{
+    padding-left: 180px;
     }
 }
 .top{
