@@ -152,4 +152,10 @@ font-size: 16px;
     margin-left: 35px;
     margin-top: 25px;
   }
-//
+.save:hover{
+    box-shadow: 3px -3px 0px #EF454E;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    color: #EF454E;
+ }
