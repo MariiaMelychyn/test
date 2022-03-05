@@ -1,24 +1,56 @@
-.section{
+   
+@media screen and (min-width: 320px){
+    .section{
     height: 1921px;
-    // height: 500px;
     margin-left: auto;
     margin-right: auto;
-
-    // width: 1440px;
-    padding-left: 335px;
+    padding-left: 190px;
     padding-right: 295px;
     margin-left: auto;
     margin-right: auto;
-    
+    }
+}
+@media screen and (min-width: 768px){
+    .section{
+    padding-left: 160px;
+    }
+}
+@media screen and (min-width: 1220px){
+    .section{
+    padding-left: 180px;
+    }    
+}
+@media screen and (min-width: 1440px){
+    .section{
+    padding-left: 550px;
+    }   
 }
 .section-one{
     width: 850px;
     height: 180px;
-    // background: #FFFFFF;
     border: none;
     border-bottom: 1px solid #C4C4C4;
-
 }
+@media screen and (min-width: 320px){
+    .section-one{
+        margin-left: -28px;
+    } 
+}
+@media screen and (min-width: 786px){
+.section-one {
+    margin-left: -28px;
+}
+}
+@media screen and (min-width: 1220px){
+    .section-one {
+        margin-left: -28px;
+    }
+    }
+    @media screen and (min-width: 1440px){
+        .section-one {
+            margin-left: -230px;
+        }
+        }
 .section-one:hover{
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
    border-radius: 4px;
@@ -44,7 +76,7 @@
     font-family: "Work Sans" , sans-serif;
     font-weight: 500;
     margin: 0;
-padding-bottom: 11px;
+    padding-bottom: 11px;
 }
 .new-two{
     color: #000000;
@@ -61,9 +93,9 @@ padding-bottom: 11px;
     padding-bottom: 6px;
 }
 .new-four{
-margin: 0;
-font-weight: 400;
-font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .amout{
@@ -91,6 +123,11 @@ font-size: 16px;
     padding-top: 50px;
     padding-bottom: 25px;
     margin-left: 70px;
+}
+@media screen and (min-width: 1440px){
+    .results{
+    margin-left: -140px;
+    } 
 }
 .amount{
     color: #606060;
@@ -126,7 +163,8 @@ font-size: 16px;
     margin-right: 35px;
     margin-top: 21px;
   }
-.details{
+  @media screen and (min-width: 320px){
+    .details{
     color: #EF454E;
     font-size: 16px;
     line-height: 2;
@@ -138,8 +176,33 @@ font-size: 16px;
     margin-left: 70px;
     text-decoration: underline;
     cursor: pointer;
+    }
+  }
+ 
+  @media screen and (min-width: 1220px){
+    .details{
+        font-weight: 300;
+    }
+  }
+  @media screen and (min-width: 1440px){
+    .details{
+    width: 100vw;
+    color: #EF454E;
+    font-size: 16px;
+    line-height: 2;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-left: -200px;
+    text-decoration: underline;
+    cursor: pointer;
+    }
+  }
+#text{
+   margin-left: 100px;
 }
-
 .details::after{
   content: url('../images/icons.svg/strila.svg')
 }

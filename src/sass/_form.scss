@@ -1,8 +1,13 @@
 .form{
-    width: 100vw;
     height: 110px;
     background-color: #FFBF43;
 
+}
+
+@media screen and (min-width: 1220px){
+   .form{ 
+       width: 100vw; 
+   } 
 }
 .loockfor{
     display: flex;
@@ -21,7 +26,7 @@
     border: none;
 }
 .sity{
-    padding-left: 15px;
+padding-left: 15px;
 width: 637px;
 height: 70px;
 background: #FFFFFF;
@@ -65,9 +70,7 @@ border: none;
 .new-sity:hover{
 color: #EF454E;
 }
-// .fa{
-//    visibility: hidden;
-// }
+
 .new-sity{
     cursor: pointer;
 }
