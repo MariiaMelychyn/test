@@ -48,6 +48,11 @@ border: none;
         width: 525px;
     }
 }
+@media screen and (min-width: 320px){
+    .loockfor{
+        margin-left: -108px;
+    }
+}
 .btn{
     border-radius: 4px;
     width: 150px;
@@ -121,3 +126,83 @@ color: #EF454E;
     cursor: pointer;
 }
 
+@media screen and (min-width: 320px){
+    .form{
+        height: 220px;
+    }
+    .loockfor{
+        display: flex;
+    flex-direction: column;
+    }
+    .Student{
+        margin-right: -113px;
+        height: 30px;
+    }
+    .sity{
+        height: 30px;
+        margin-right: -105px;
+        width: 300px;
+    }
+    .btn{
+        height: 35px;
+        margin-right: -108px;
+    }
+    .Filter{
+        height: 30px;
+        margin-right: -114px;
+    }
+}
+
+@media screen and (min-width: 1220px){
+    .form{
+        height: 135px;
+        display: flex;
+    }
+    .loockfor{
+        padding-left: 210px;
+        display: flex;
+        flex-direction: initial;
+    }
+    .Student{
+        margin-right: 10px;
+        height: 70px;
+    }
+    .sity{
+        height: 70px;
+        margin-right: 10px;
+        width: 560px;
+    }
+    .btn{
+        height: 70px;
+        margin-right: 10px;
+    }
+    .Filter{
+        height: 70px;
+        padding-right: 10px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .form{
+        height: 150px;
+    }
+    .loockfor{
+        display: flex;
+        padding-left: 332px;
+    }
+    .Student{
+        margin-right: 10px;
+        height: 70px;
+    }
+    .sity{
+        height: 70px;
+        margin-right: 10px;
+    }
+    .btn{
+        height: 70px;
+        margin-right: 10px;
+    }
+    .Filter{
+        height: 70px;
+        padding-right: 10px;
+    }
+       }     

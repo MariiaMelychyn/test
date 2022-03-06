@@ -45,10 +45,11 @@ img {
 body {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
+  min-width: 320px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--main-text-color);
+  color: white;
 }
 
 @media screen and (min-width: 1920px) {
