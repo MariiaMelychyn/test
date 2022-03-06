@@ -1,7 +1,6 @@
 .form{
     height: 110px;
     background-color: #FFBF43;
-
 }
 
 .loockfor{
@@ -34,22 +33,22 @@ margin-top: 20px;
 border: none;
 }
 @media screen and (min-width: 320px){
-    .sity{
+.sity{
         width: 560px;
     }
 }
 @media screen and (min-width: 768px){
-    .sity{
+.sity{
         width: 560px;
     }
 }
 @media screen and (min-width: 1220px){
-    .sity{
+.sity{
         width: 525px;
     }
 }
 @media screen and (min-width: 320px){
-    .loockfor{
+.loockfor{
         margin-left: -108px;
     }
 }
@@ -127,82 +126,82 @@ color: #EF454E;
 }
 
 @media screen and (min-width: 320px){
-    .form{
+.form{
         height: 220px;
     }
-    .loockfor{
-        display: flex;
+.loockfor{
+    display: flex;
     flex-direction: column;
     }
-    .Student{
-        margin-right: -113px;
-        height: 30px;
+.Student{
+    margin-right: -113px;
+    height: 30px;
     }
-    .sity{
-        height: 30px;
-        margin-right: -105px;
-        width: 300px;
+.sity{
+    height: 30px;
+    margin-right: -105px;
+    width: 300px;
     }
-    .btn{
-        height: 35px;
-        margin-right: -108px;
+.btn{
+    height: 35px;
+    margin-right: -108px;
     }
-    .Filter{
-        height: 30px;
-        margin-right: -114px;
+.Filter{
+    height: 30px;
+    margin-right: -114px;
     }
 }
 
 @media screen and (min-width: 1220px){
-    .form{
-        height: 135px;
-        display: flex;
+.form{
+    height: 135px;
+    display: flex;
     }
-    .loockfor{
-        padding-left: 210px;
-        display: flex;
-        flex-direction: initial;
+.loockfor{
+    padding-left: 210px;
+    display: flex;
+    flex-direction: initial;
     }
-    .Student{
-        margin-right: 10px;
-        height: 70px;
+.Student{
+    margin-right: 10px;
+    height: 70px;
     }
-    .sity{
-        height: 70px;
-        margin-right: 10px;
-        width: 560px;
+.sity{
+    height: 70px;
+    margin-right: 10px;
+    width: 560px;
     }
-    .btn{
-        height: 70px;
-        margin-right: 10px;
+.btn{
+    height: 70px;
+    margin-right: 10px;
     }
-    .Filter{
-        height: 70px;
-        padding-right: 10px;
+.Filter{
+    height: 70px;
+    padding-right: 10px;
     }
 }
 @media screen and (min-width: 1440px){
-    .form{
-        height: 150px;
+.form{
+    height: 150px;
     }
-    .loockfor{
-        display: flex;
-        padding-left: 332px;
+.loockfor{
+    display: flex;
+    padding-left: 332px;
     }
-    .Student{
-        margin-right: 10px;
-        height: 70px;
+.Student{
+margin-right: 10px;
+height: 70px;
     }
-    .sity{
-        height: 70px;
-        margin-right: 10px;
+.sity{
+    height: 70px;
+    margin-right: 10px;
     }
-    .btn{
-        height: 70px;
-        margin-right: 10px;
+.btn{
+    height: 70px;
+    margin-right: 10px;
     }
-    .Filter{
-        height: 70px;
-        padding-right: 10px;
+.Filter{
+    height: 70px;
+    padding-right: 10px;
     }
        }     

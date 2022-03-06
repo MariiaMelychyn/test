@@ -1,5 +1,5 @@
 @media screen and (min-width: 1440px){
-    .top{
+.top{
     width: 1520px;
     }
 }
@@ -10,7 +10,7 @@
     background-color:  #FFFFFF;
   }
 
-  .header__nav {
+.header__nav {
     margin-left: 180px;
     padding-top: 0;
     display: flex;
@@ -18,19 +18,19 @@
 }
 
 @media screen and (min-width: 768px){
-    .header {
+.header {
     position: relative;
     height: 100px;
     background-color:  #FFFFFF;
       }
     
-    .header__nav {
+.header__nav {
     padding-top: 0;
     display: flex;
     }
     }
-    @media screen and (min-width: 1440px){
-    .header__nav {
+@media screen and (min-width: 1440px){
+.header__nav {
     margin-left: 260px;
     padding-top: 0px;
     display: flex;
@@ -38,21 +38,19 @@
         }
 @media screen and (min-width: 320px){
 .header-menu {
-    // padding-top: 20px;
     display: flex;
 }
 }
 
 @media screen and (min-width: 320px){
-    .header-list {
+.header-list {
     padding-left: -150px;
-    // display: flex;
     justify-content: center;
     align-items: center;
         }
         }
 @media screen and (min-width: 768px){
-    .header-list {
+.header-list {
     padding-left: -36px;
     display: flex;
     justify-content: center;
@@ -60,7 +58,7 @@
     }
     }
 @media screen and (min-width: 1220px){
-    .header-list {
+.header-list {
     padding-left: 148px;
     display: flex;
     justify-content: center;
@@ -68,7 +66,7 @@
         }
         }
 @media screen and (min-width: 1440px){
-    .header-list {
+.header-list {
     padding-left: 235px;
     display: flex;
     justify-content: center;
@@ -135,22 +133,17 @@
     .header-menu::before{
         content: url('../images/icons.svg/logot.svg');
         padding-left: 30px; 
-        // visibility: hidden;
         display: none;
     }
     }
 @media screen and (min-width: 768px){
     .header-menu::before{
         content: url('../images/icons.svg/logot.svg');
-        // padding-left: 30px; 
-        // visibility: hidden;
-        // display: none;
         display: flex;
     }
     }
     
 .header-list__link-two{
-//    margin-right: 40px;
    list-style: none;
    font-family: Work Sans;
    font-weight: 400;
@@ -168,7 +161,7 @@
     text-shadow: 1px 1px 2px #EF454E;
 }
 @media screen and (min-width: 320px){
-    .header-list__link-two:hover:before {
+.header-list__link-two:hover:before {
     content: '';
     position: absolute;
     margin-top: -36px;
@@ -180,7 +173,7 @@
     margin-bottom: -2px;
     border-radius: 1px;
     }
-    .header-list__link-three:hover:before {
+.header-list__link-three:hover:before {
     content: '';
     position: absolute;
     margin-top: -36px;
@@ -192,7 +185,7 @@
     margin-bottom: -2px;
     border-radius: 1px;
     }
-    .header-list__link:hover:before {
+.header-list__link:hover:before {
     content: '';
     position: absolute;
     margin-top: -36px;
@@ -204,7 +197,7 @@
     margin-bottom: -2px;
     border-radius: 1px;
     }
-    .header-list__link-one:hover:before {
+.header-list__link-one:hover:before {
     content: '';
     position: absolute;
     margin-top: -36px;
@@ -218,38 +211,38 @@
     }
 }
 @media screen and (min-width: 768px){
-    .header-list__link-two:hover:before {
+.header-list__link-two:hover:before {
         left: 655px;
     }
-    .header-list__link-three:hover:before {
+.header-list__link-three:hover:before {
         left: 790px;
     }
-    .header-list__link-one:hover:before {
+.header-list__link-one:hover:before {
         left: 1000px;
     }
 }
 @media screen and (min-width: 1220px){
-    .header-list__link-two:hover:before {
+.header-list__link-two:hover:before {
         left: 660px;
     }
-    .header-list__link-three:hover:before {
+.header-list__link-three:hover:before {
         left: 800px;
     }
-    .header-list__link-one:hover:before {
+.header-list__link-one:hover:before {
         left: 1005px;
     }
 }
 @media screen and (min-width: 1440px){
-    .header-list__link-two:hover:before {
+.header-list__link-two:hover:before {
         left: 825px;
     }
-    .header-list__link-three:hover:before {
+.header-list__link-three:hover:before {
         left: 943px;
     }
-    .header-list__link-one:hover:before {
+.header-list__link-one:hover:before {
         left: 1108px;
     }
-    .header-list__link:hover:before{
+.header-list__link:hover:before{
         left: 1055px;
     }
 }
@@ -272,66 +265,66 @@
     text-shadow: 1px 1px 2px #EF454E;
 }
 @media screen and (min-width: 768px){
-    .header-list__link-one{
-        margin-right: 5px;
+.header-list__link-one{
+    margin-right: 5px;
     }
-    .header-list__link-two{
-        margin-right: 5px;
+.header-list__link-two{
+    margin-right: 5px;
     } 
-    .header-list__link-three{
-        margin-right: 5px;
+.header-list__link-three{
+    margin-right: 5px;
     }
-    .header-list__link{
-        margin-right: 5px;
+.header-list__link{
+    margin-right: 5px;
     }
-    .header-list__item{
-        margin-right: 0;
+.header-list__item{
+    margin-right: 0;
     }
-    .header{
+.header{
         height: 50px ;
     }
 }
 @media screen and (min-width: 1220px){
-    .header-list__link-one{
+.header-list__link-one{
         margin-right: 15px;
     }
-    .header-list__link-two{
+.header-list__link-two{
         margin-right: 15px;
     } 
-    .header-list__link-three{
+.header-list__link-three{
         margin-right: 15px;
     }
-    .header-list__link{
+.header-list__link{
         margin-right: 15px;
     }
-    .header-list__item{
+.header-list__item{
         margin-right: 0;
     }
-    .header{
+.header{
         height: 50px ;
     }
 }
 @media screen and (min-width: 1440px){
-    .header-list__link-two{
+.header-list__link-two{
         margin-right: 15px;
     }
-    .header-list__link-three{
+.header-list__link-three{
         margin-right: 15px;
     }
-    .header-list__link{
+.header-list__link{
         margin-right: 15px;
     }
-    .header-list__link-one{
+.header-list__link-one{
         margin-right: 15px;
         margin-left: 8px;
     }
-    .header-list__item {
+.header-list__item {
      margin-right: -7px;
     }
-    .header{
+.header{
         height: 100px ;
     }
-    .header-menu {
+.header-menu {
         padding-top: 20px;
     }
 }

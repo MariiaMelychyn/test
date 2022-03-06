@@ -134,7 +134,6 @@ img{
     .college{
         padding-left: 35px;
         padding-top: 48px;
-        // line-height: 1.62;
     }
     .one{
         padding-right: 5px;
@@ -189,10 +188,6 @@ img{
         padding-top: 5px;
         padding-left: 5px;
                 }
-    // .text:before{
-    //     margin-left: -271px;
-    //     display: none;
-    //     }
     .text-footer{
         width: 330px;
         padding-right: 27px;
@@ -284,13 +279,13 @@ img{
        padding-left: 141px;
     }
     .text:before{
-        margin-left: -97px;
+       margin-left: -97px;
     }
     .association {
-        flex-direction: row;
-        display: flex;
-        align-items: center;
-        margin-right: -141px;
+       flex-direction: row;
+       display: flex;
+       align-items: center;
+       margin-right: -141px;
     }
     .subscribe{
         margin-left: -142px;
