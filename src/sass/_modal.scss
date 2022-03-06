@@ -37,30 +37,6 @@ body.no-scroll {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
-@media screen and (min-width: 320px){
-    .container{
-        margin: 0vh 55vw; 
-        width: 300px; 
-    }
-}
-@media screen and (min-width: 768px){
-    .container{
-        margin: 0vh 3vw;  
-        width: 700px;
-    }
-}
-@media screen and (min-width: 1220px){
-    .container{
-        margin: 0vh 19vw;  
-        width: 700px;
-    }
-}
-@media screen and (min-width: 1440px){
-    .container{
-        margin: 0vh 24vw;  
-        width: 700px;
-    }
-}
 .container .closeModal{
     position: absolute;
     right: 15px;
@@ -230,3 +206,134 @@ body.modal{
  body{
     width: 100vw;
  }
+ @media screen and (min-width: 320px){
+    .container{
+        margin: 0vh 3vw; 
+        width: 300px; 
+    }
+    .title{
+        padding-left: 0;
+        font-size: 10px;
+        width: 300px;
+        }
+    .already {
+        margin: 0;
+        padding-left: 0;
+        margin-left: 59px;
+        font-size: 10px;
+        line-height: 1;      
+      }
+    .log {
+        padding-left: 15px;
+        font-size: 10px;
+        line-height: 1;
+        width: 77px;
+    }
+    .am{
+        width: 287px;
+    }
+    .radio {
+        margin-left: 2px;
+       margin-bottom: 10px;
+   }
+   .register-form {
+    margin-left: 5px;
+    display: table-caption;
+}
+.forma-modal{
+    height: 45px;
+    width: 260px;
+}
+.sub{
+    padding-left: 14px;
+}
+.checkbox {
+    padding-left: 9px;
+}
+.how {
+    padding-left: 14px;
+}
+.clicking {
+    padding-left: 28px;
+    font-size: 9px;
+    line-height: 12px;
+}
+.terms {
+    font-size: 9px;
+    line-height: 12px;
+    padding-left: 5px;
+}
+.button {
+    margin-left: 9px;
+    width: 255px;
+}
+}
+@media screen and (min-width: 768px){
+    .container{
+        margin: 0vh 3vw;  
+        width: 700px;
+    }
+    .title{
+       padding-left: 95px;
+       font-size: 21px;
+       width: 500px;
+    }
+    .already {
+        margin: 0;
+        padding-left: 135px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .log {
+        padding-left: 8px;
+        font-size: 20px;
+        line-height: 1.6;
+        width: 300px;
+}
+.am{
+    width: 550px;
+}
+.radio {
+     margin-left: 145px;
+    margin-bottom: 10px;
+}
+.register-form {
+    margin-left: 135px;
+    display: table-caption;
+}
+.forma-modal{
+    height: 52px;
+    width: 360px;
+}
+.sub{
+    padding-left: 135px;
+}
+.checkbox {
+    padding-left: 135px;
+}
+.how {
+    padding-left: 135px;
+}
+.clicking {
+    padding-left: 135px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.terms {
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 5px;
+}
+.button {
+    margin-left: 135px;
+    width: 360px;
+}
+
+}
+
+@media screen and (min-width: 1220px){
+.container {
+    margin: 0vh 25vw;
+    width: 700px;
+}
+}
