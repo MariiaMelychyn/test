@@ -171,57 +171,100 @@ img{
     }
     .association{
         flex-direction: column;
-    display: flex;
-    align-items: flex-start;
+        display: flex;
+        align-items: flex-start;
     }
 }
     @media screen and (min-width: 768px){
-        .foter-one{
+    .foter-one{
             height: 100% /5;
         }
-        .college{
-            padding-left: 35px;
-            padding-top: 48px;
-            // line-height: 1.62;
+    .college{
+        padding-left: 35px;
+        padding-top: 48px;
+         
         }
-        .one{
-            padding-right: 5px;
+    .one{
+        padding-right: 5px;
         }
-        .social-share{
-            padding-left: 160px;
+    .social-share{
+        padding-left: 160px;
         }
-        .text {
-            padding-top: 5px;
-            padding-left: 5px;
+    .text {
+        padding-top: 5px;
+        padding-left: 5px;
                 }
-        .text:before{
+    .text:before{
         margin-left: -271px;
         display: none;
         }
-        .text-footer{
-            width: 330px;
-            padding-right: 27px;
+    .text-footer{
+        width: 330px;
+        padding-right: 27px;
         }
-        .tabl{
-            width: 190px;
-            height: 50px;
+    .tabl{
+        width: 190px;
+        height: 50px;
         }
-        .subscribe{
-            width: 80px;
-            height: 40px;
-            padding-left: 4px;
-            margin-left: 111px;
-            padding-top: 10px;
-            margin-top: 10px;
+     .subscribe{
+        width: 80px;
+        height: 40px;
+        padding-left: 4px;
+        margin-left: 111px;
+        padding-top: 10px;
+        margin-top: 10px;
         }
-        .association{
-            flex-direction: column;
+    .association{
+        flex-direction: column;
         display: flex;
         align-items: center;
         }
     }
     @media screen and (min-width: 1220px){
-    
+    .foter-one{
+        height: 100% /5;
+        }
+    .college{
+        padding-left: 80px;
+        padding-top: 48px;
+         
+        }
+    .one{
+        padding-right: 80px;
+        }
+    .social-share{
+        padding-left: 264px;
+        }
+    .text {
+        padding-top: 5px;
+        padding-left: 5px;
+                }
+    .text:before{
+        margin-left: -271px;
+        display: none;
+        }
+    .text-footer{
+        width: 520px;
+        padding-right: 27px;
+        margin-top: 45px;
+        }
+    .tabl{
+        width: 330px;
+        height: 50px;
+        }
+    .subscribe{
+        width: 100px;
+        height: 40px;
+        padding-left: 4px;
+        margin-left: -10px;
+        padding-top: 10px;
+        margin-top: 10px;
+        }
+    .association{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        }
     }
     @media screen and (min-width: 1440px){
     .college{
@@ -236,8 +279,8 @@ img{
         padding-left: 200px;
     }
     .text {
-padding-top: 45px;
-padding-left: 40px;
+       padding-top: 45px;
+       padding-left: 40px;
     }
     .text:before{
         margin-left: -265px;
