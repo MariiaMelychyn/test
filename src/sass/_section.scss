@@ -237,6 +237,39 @@
         margin-left: 5px;
     }
  }
+ @media screen and (min-width: 480px){
+    .section{
+        padding-right: 11px;
+        padding-left: 0;
+    }
+    .results{
+        margin-left: 20px;
+    }
+    .amout {
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        margin-left: 195px;
+    }
+    .amout-one {
+        padding-top: 34px;
+        padding-left: 7px;
+    }
+    .tablet{
+        padding-left: 6px;
+    }
+    .save{
+        width: 292px;
+    }
+    .icon-one{
+        margin-left: 110px;
+    }
+    .details{
+        padding-top: 5px;
+        margin-left: 5px;
+    }
+ }
  @media screen and (min-width: 768px){
     .section{
         padding-right: 11px;
