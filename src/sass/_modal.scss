@@ -39,12 +39,26 @@ body.no-scroll {
 }
 @media screen and (min-width: 320px){
     .container{
-        margin: 0vh 75vw;  
+        margin: 0vh 55vw; 
+        width: 300px; 
     }
 }
 @media screen and (min-width: 768px){
     .container{
-        margin: 0vh 25vw;  
+        margin: 0vh 3vw;  
+        width: 700px;
+    }
+}
+@media screen and (min-width: 1220px){
+    .container{
+        margin: 0vh 19vw;  
+        width: 700px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .container{
+        margin: 0vh 24vw;  
+        width: 700px;
     }
 }
 .container .closeModal{
