@@ -270,7 +270,7 @@ img{
     .college{
         padding-left: 180px;
         line-height: 1.62;
-        padding-top: 124px;
+        padding-top: 90px;
     }
     .one{
         padding-right: 40px;
@@ -280,9 +280,28 @@ img{
     }
     .text {
        padding-top: 45px;
-       padding-left: 40px;
+       padding-left: 141px;
     }
     .text:before{
         margin-left: -265px;
     }
+    .association {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        margin-right: -141px;
     }
+    .subscribe{
+        margin-left: -142px;
+        height: 47px;
+        padding-left: revert;
+    }
+    .tabl {
+        width: 527px;
+        height: 69px;
+        padding-right: 65px;
+        margin-right: 44px;
+        margin-top: 10px;
+    }
+    }
+    

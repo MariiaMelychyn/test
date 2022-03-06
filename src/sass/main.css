@@ -912,7 +912,7 @@ input {
             flex-direction: column;
   }
   .icon {
-    margin-left: 103px;
+    margin-left: 110px;
   }
   .amout-one {
     padding-top: 34px;
@@ -922,10 +922,10 @@ input {
     padding-left: 6px;
   }
   .save {
-    width: 104px;
+    width: 110px;
   }
   .icon-one {
-    margin-left: 103px;
+    margin-left: 110px;
   }
   .details {
     padding-top: 5px;
@@ -1371,7 +1371,7 @@ img {
   .college {
     padding-left: 180px;
     line-height: 1.62;
-    padding-top: 124px;
+    padding-top: 90px;
   }
   .one {
     padding-right: 40px;
@@ -1381,10 +1381,35 @@ img {
   }
   .text {
     padding-top: 45px;
-    padding-left: 40px;
+    padding-left: 141px;
   }
   .text:before {
     margin-left: -265px;
+  }
+  .association {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: -141px;
+  }
+  .subscribe {
+    margin-left: -142px;
+    height: 47px;
+    padding-left: revert;
+  }
+  .tabl {
+    width: 527px;
+    height: 69px;
+    padding-right: 65px;
+    margin-right: 44px;
+    margin-top: 10px;
   }
 }
 
