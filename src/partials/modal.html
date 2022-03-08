@@ -25,7 +25,7 @@
           </label>
       </div>
       <div>
-     <form class="register-form">
+     <form class="register-form" action="http://яваскрипт.укр/ajax.php?act=test_post" id="formToAjax" method="post">
         <label class="forma-modal">
             <input
               type="text"
@@ -107,7 +107,7 @@ class="forma-modal"
 required
 />
 </label>
-     </form>
+     <!-- </form> -->
     </div>
     <p class="sub">SUBSCRIBE:</p>
     <div class="checkbox">
@@ -146,12 +146,12 @@ required
          <p class="clicking">By clicking "Join," I agree to the</p>
          <p class="terms">Terms & Conditions</p>
      </div>
-     <button class="button" type="submit">
-      <span className={s.btnText}> Join</span></button>
+     <button class="button" type="submit" aria-label="register" value="Join"> Join</button>
+      <!-- <input class="button" type="submit" value="Join"> -->
 </div>
 
 
-
+</form>
 
 
 
