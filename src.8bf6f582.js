@@ -2,7 +2,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 $(function(){var l={self:$("#modal"),showModal:function(l){this.self.find("#innerModal").html(l),this.self.fadeIn(200)},hideModal:function(){this.self.fadeOut(200),this.self.find("#innerModal").html("")}};$(".showModal").on("click",function(o){var t=$(this).data("id"),a=$("#cont"+t).html();l.showModal(a)}),$("#modal").on("click",function(o){if("modal"!==$(o.target).attr("id")&&!$(o.target).hasClass("closeModal"))return!1;l.hideModal()})});
 },{}],"lFBt":[function(require,module,exports) {
 function e(){var e=document.querySelector('button[type="submit"]'),t=document.querySelector('input[name="radio-value"]:checked');e.disabled="5"!=t.value}e();
+},{}],"oVPx":[function(require,module,exports) {
+function e(){for(i=0,len=document.forms.length;i<len;i++)document.forms[i].onsubmit=function(e){var t="";for(a=0,b=this.elements.length;a<b;a++)if(1==this.elements[a].hasAttribute("name"))switch(this.elements[a].getAttribute("type")){case"radio":case"checkbox":if(0==this.elements[a].checked)continue;default:t+=(""==t?"":"&")+this.elements[a].getAttribute("name")+"="+this.elements[a].value}var n=new XMLHttpRequest,s=this.getAttribute("method"),i=this.getAttribute("action");return n.form=this,null==s&&(s="get"),null==i&&(i=""),"get"==(s=s.toLowerCase())&&(i+=-1==i.indexOf("?")?"?"+t:"&"+t),n.open(s,i,!0),"post"==s&&n.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),n.onreadystatechange=function(){4==this.readyState&&200==this.status&&this.form.onload&&this.form.onload(this.responseText)},n.send("get"==s?null:t),!1}}window.addEventListener("load",e);
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./js/modal"),require("./js/radio");
-},{"./js/modal":"RSqK","./js/radio":"lFBt"}]},{},["Focm"], null)
-//# sourceMappingURL=/test/src.f18d690e.js.map
+"use strict";require("./js/modal"),require("./js/radio"),require("./js/form");
+},{"./js/modal":"RSqK","./js/radio":"lFBt","./js/form":"oVPx"}]},{},["Focm"], null)
+//# sourceMappingURL=/test/src.8bf6f582.js.map
