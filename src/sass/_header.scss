@@ -163,7 +163,7 @@
 @media screen and (min-width: 320px){
 .header-list__link-two:hover:before {
     content: '';
-    // position: absolute;
+    position: absolute;
     margin-top: -36px;
     left: 652px;
     display: block;
@@ -176,7 +176,7 @@
     
 .header-list__link-three:hover:before {
     content: '';
-    // position: absolute;
+    position: absolute;
     margin-top: -36px;
     left: 786px;
     display: block;
@@ -188,7 +188,7 @@
     }
 .header-list__link:hover:before {
     content: '';
-    // position: absolute;
+    position: absolute;
     margin-top: -36px;
     left: 925px;
     display: block;
@@ -200,7 +200,7 @@
     }
 .header-list__link-one:hover:before {
     content: '';
-    // position: absolute;
+    position: absolute;
     margin-top: -36px;
     left: 995px;
     display: block;
@@ -301,68 +301,75 @@
 }
 @media screen and (min-width: 320px){
 .header-list__link-two:hover:before {
-            left: 825px;
-            display: block;
+            left: 40px;
+            margin-top: 17px;
         }
 .header-list__link-three:hover:before {
-            left: 943px;
-            display: block;
+            left: 39px;
+            margin-top: 17px;
         }
 .header-list__link-one:hover:before {
-            left: 1108px;
-            display: block;
+            left: 40px;
+            margin-top: 17px;
+            
         }
 .header-list__link:hover:before{
-            left: 1055px;
-            display: block;
+    margin-top:  17px;
+            left: 39px;
+            // display: block;
         }
     }
 @media screen and (min-width: 768px){
 .header-list__link-two:hover:before {
-        left: 655px;
-        display: block;
+        left: 372px;
+        margin-top:  17px;
     }
 .header-list__link-three:hover:before {
-        left: 790px;
-        display: block;
+        left: 481px;
+        margin-top:  17px;
     }
 .header-list__link-one:hover:before {
-        left: 1000px;
-        display: block;
+        left: 626px;
+        margin-top:  17px;
+       
     }
 .header-list__link:hover:before{
-        left: 1055px;
-        display: block;
+        left: 582px;
+        margin-top:  17px;
     }
 }
 @media screen and (min-width: 1220px){
 .header-list__link-two:hover:before {
-        left: 660px;
-        position: absolute;
-        display: inline;
+        left: 658px;
+       
     }
 .header-list__link-three:hover:before {
-        left: 800px;
-        position: absolute;
-        display: inline;
+        left: 776px;
+       
     }
 .header-list__link-one:hover:before {
-        left: 1005px;
-        position: absolute;
-        display: inline;
+        left: 942px;
+       
+    }
+.header-list__link:hover:before{
+        left: 901px;
     }
 }
 @media screen and (min-width: 1440px){
 .header-list__link-two:hover:before {
         left: 825px;
+        margin-top:  -35px;
     }
 .header-list__link-three:hover:before {
         left: 943px;
+        margin-top:  -35px;
     }
 .header-list__link-one:hover:before {
         left: 1108px;
+        margin-top:  -35px;
     }
 .header-list__link:hover:before{
         left: 1055px;
+        margin-top:  -35px;
     }
 }
